@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TecnoMundo</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">TecnoMundo</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Favoritos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <button id="toggle-mode">Modo Escuro</button>
+        </header>
+
+        <main>
+            <section class="search-section">
+                <input type="text" id="search" placeholder="Buscar notícias..." />
+            </section>
+
+            <section id="news-container" class="news-grid">
+                <!-- Notícias serão inseridas aqui -->
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 TecnoMundo</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 </html>
