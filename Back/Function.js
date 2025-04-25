@@ -1,4 +1,4 @@
-const apiKey = process.env.NEWS_API_KEY;
+const apiKey = '0455848f6d6f432bbb4206855151a08c';
 const container = document.getElementById('news-container');
 const searchInput = document.getElementById('search');
 const toggleModeBtn = document.getElementById('toggle-mode');
